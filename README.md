@@ -90,3 +90,14 @@ We would prefer you to deliver your solution as a **zip** file. If that presents
   * Cucumber documentation: [https://docs.cucumber.io/](https://docs.cucumber.io/)
 
 #### Thank you for your time. We look forward to receiving your submission!
+
+
+Technical Question Answers
+1. I took around 4 hours of time including setup.
+2. I would add more scenarios which in turn would have added more step definitions.
+3. Defining the automation framework and resusable test steps would be a good approach.
+4. Name - Adersha Madyastha Sadhashiv, Role - Test Engineer
+
+Also I would like to say that I was unable to install ruby/gem successfully on my laptop due to which I added changes directly in github and I have committed the changes for you to review.
+
+The link is https://github.com/fac/automation-challenge/pulls
