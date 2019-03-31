@@ -9,6 +9,12 @@ When /^I login with an invalid credential combination$/ do
  @LoginPage.clickLoginButton
 end
 
+When /^I login with an valid email and invalid password combination$/ do
+ @LoginPage.enterUsername("REGISTERED_EMAIL@YAHOO.COM")
+ @LoginPage.enterPassword("ZZZZZZZZ")
+ @LoginPage.clickLoginButton
+end
+
 Then /^I should see the invalid credentials login error message$/ do
  @LoginPage.verifyFailure
 end
